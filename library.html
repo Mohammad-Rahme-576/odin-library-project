@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="library.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>The Odin Project Library</h1>
+        <h2>This library application allows you to add and manage your book collection.</h2>
+        <div class="input-container">
+        <button id="addBook">New Book</button>
+        <form id="bookForm" hidden>
+            <input type="text" id="title" placeholder="Title">
+            <input type="text" id="author" placeholder="Author">
+            <input type="text" id="pages" placeholder="Pages">
+            <input type="checkbox" id="read" placeholder="Read"> <label for="read">Did you read it?</label>
+            <button id="submit">Submit</button>
+        </form>
+        </div>
+        <div class="book-container">
+            
+            <div id="bookList">
+                
+            </div>
+        </div>
+    </div>
+
+    <script src="library.js"></script>
+</body>
+
+</html>
